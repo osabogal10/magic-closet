@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Monomaniac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Monomaniac+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, #fff8b9, #cbd4ef)
+}
+
+.App-logo {
+  margin: 20vh auto 5vh auto;
+  height: 40vw;
+}
+
+.App h1 {
+  margin-top: 0;
+  font-family: "Darumadrop One", serif;
+  font-size: 40pt;
+
+}
+
+.App h2 {
+  margin: 0;  
+  font-family: "Darumadrop One", serif;
+  font-size: 20pt;
+
+}
+
+.App button {
+  background-color: #5595a2;
+  padding: 10px 20px;
+  margin: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20pt;
+}
+
+.SecondPage {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, #bad8ff, #fab563)
+}
+
+.SecondPage h1 {
+    margin: 0;
+    padding: 5vw;
+    padding-top: 20vh;
+    font-family: "Raleway", serif;
+    font-size: 30pt;
+}
+
+.buttonSoleado {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    font-size: 20pt;
+    -webkit-box-shadow: 7px 8px 5px -1px rgba(246,170,89,1);
+    -moz-box-shadow: 7px 8px 5px -1px rgba(246,170,89,1);
+    box-shadow: 7px 8px 5px -1px rgba(246,170,89,1);
+}
+
+.buttonNublado {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    font-size: 20pt;
+    -webkit-box-shadow: 7px 8px 5px -1px rgba(84,84,84,1);
+    -moz-box-shadow: 7px 8px 5px -1px rgba(84,84,84,1);
+    box-shadow: 7px 8px 5px -1px rgba(84,84,84,1);
+}
+
+.Nublado {
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background: #919090
+}
+
+.Nublado h1 {
+  margin: 0;
+  padding: 5vw;
+  font-family: "Raleway", serif;
+  font-size: 25pt;
+}
+
+.Soleado {
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background: #f1d9c0
+}
+
+.Soleado h1 {
+  margin: 0;
+  padding: 5vw;
+  font-family: "Raleway", serif;
+  font-size: 25pt;
+}
+
+.icon {
+  padding: 5vw 25vw;
+  width: 50vw;
+}
+
+.shoe {
+  margin: 20px;
+  border-radius: 10px;
+  width: 90vw;
+}

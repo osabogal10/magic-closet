@@ -1,18 +1,19 @@
 
 import './App.css';
 import nube from '../assets/nube.png';
+import shoes3 from '../assets/shoes3.jpg';
+import shoes4 from '../assets/shoes4.jpg';
 import {selectShoe} from '../api/services';
 import { useState } from 'react';
 
-// TODO ORLY: actualizar imagenes
 const nublados = [
   {
     id: 3,
-    url: 'https://mateodevia.com/avatar.jpeg',
+    url: shoes3,
   },
   {
     id: 4,
-    url: 'https://mateodevia.com/avatar.jpeg',
+    url: shoes4,
   }
 ]
 

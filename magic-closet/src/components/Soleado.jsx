@@ -1,17 +1,18 @@
 import './App.css';
 import nube from '../assets/sol.gif';
+import shoes1 from '../assets/shoes1.jpg';
+import shoes2 from '../assets/shoes2.jpg';
 import { selectShoe } from '../api/services';
 import { useState } from 'react';
 
-// TODO ORLY: actualizar imagenes
 const soleados = [
   {
     id: 1,
-    url: 'https://mateodevia.com/avatar.jpeg',
+    url: shoes1,
   },
   {
     id: 2,
-    url: 'https://mateodevia.com/avatar.jpeg',
+    url: shoes2,
   }
 ]
 
